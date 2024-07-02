@@ -1,0 +1,105 @@
+.main {
+    display: flex;
+    background-color: #f3e5d8ff;
+    height: 100%;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 45.625rem;
+    background-color: #ffffffff;
+    margin: 3.125rem;
+    padding: 2.5rem;
+    border-radius: 0.625rem;
+}
+
+.container .imagem {
+    align-self: center;
+    max-width: 40.625rem;
+    background-size: cover;
+    border-radius: 0.625rem;
+}
+
+.container .titulo {
+    margin: 2.5rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: "Young Serif", serif;
+    color: rgb(44, 44, 44);
+}
+
+.container .parag2 {
+    margin: 3.75rem 0rem 1.25rem 1.563rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: hsl(332, 51%, 32%);
+}
+
+.container .lista1 {
+    margin: 0rem 0rem 2.5rem 3.125rem;
+    line-height: 2.5rem;
+}
+
+.container .lista2 {
+    margin: 1.25rem 0rem 3.75rem 1.25rem;
+    line-height: 2.5rem;
+}
+
+.container .lista3 {
+    margin: 1.875rem auto;
+    
+}
+
+.container .lista3 li {
+    line-height: 1.875rem;
+    margin: 1.25rem;
+}
+
+.container .parag3 {
+    margin: 1.875rem 0rem 1.875rem 0rem;
+}
+
+.container .nutrientes  {
+    display: flex;        
+}
+
+.container .nutrientes  p {
+    width: 40.875rem; 
+    line-height: 3.125rem;
+}
+
+.container .nutrientes .calories {
+    word-spacing: 17.5rem;
+    border-bottom: solid 0.125rem hsl(30, 18%, 87%);
+    
+}
+
+.container .nutrientes .carbs {
+    word-spacing: 18.625rem;
+    border-bottom: solid 0.125rem hsl(30, 18%, 87%);
+}
+
+.container .nutrientes .protein {
+    word-spacing: 18rem;
+    border-bottom: solid 0.125rem hsl(30, 18%, 87%);
+}
+
+.container .nutrientes .flat {
+    word-spacing: 19.75rem;
+}
+
+.container .nutrientes strong {
+    color: hsl(14, 45%, 36%);
+}
+
+.attribution {
+    font-size: 0.688rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
